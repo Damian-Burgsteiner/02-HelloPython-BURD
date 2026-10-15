@@ -25,3 +25,25 @@ eineVariable = 15
 
 dateinTyp = type(eineVariable)
 print("Datentyp von eineVariable:", dateinTyp)
+
+# Formatierte Ausgabe
+# C:. printf("Zahl lautet %i und ist Cool!", eineVariable);
+# print("Zahl lautet %i und ist Cool!", eineVariable)
+einText = f"Zahl lautet {eineVariable} \n und ist Cool!"
+# Typ Umwandeln
+# (Type-Conversion)
+einString = str((eineVariable**2)) # Wandle Zahl in Text um
+
+# Korrigiert: str() hinzugefügt, da man int nicht direkt mit + verketten kann
+alternativText = "Zahl lautet " + str(eineVariable) + "\n und ist Cool..!"
+
+print(einText)
+print("Alternative Text: ", alternativText)
+
+# Eingaben von der Kommonadozeile
+# int i=0;
+#  printf("Bitte zahl eingaben:\n")
+#  scanf(&i);
+
+eingeleseneZahl = int(input("Bitte Zahl eingeben:"))
+print("Zahl eingelesen vom Typ", type(eingeleseneZahl))
