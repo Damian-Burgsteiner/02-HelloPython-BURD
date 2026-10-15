@@ -47,3 +47,15 @@ print("Alternative Text: ", alternativText)
 
 eingeleseneZahl = int(input("Bitte Zahl eingeben:"))
 print("Zahl eingelesen vom Typ", type(eingeleseneZahl))
+
+# FUnktionen
+#int main(void) {
+ #   printf("HAllo Funktion!"):
+#}
+ 
+def main():{
+    print("Hallo Main!")
+}
+ 
+main()
+ 
